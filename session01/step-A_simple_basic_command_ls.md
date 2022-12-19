@@ -32,16 +32,21 @@ We can also combine this 2 short form options:
 
 `ls -sh Data`
 
->> Among the following proposals, which give the same answer? <<
-[*] `ls -s -h Data`
-[*] `ls -sh Data`
-[ ] `ls -size -h Data`
-[*] `ls --size -h Data`
-[ ] `ls --sizeh Data`
-[ ] `ls --size-h Data`
-[*] `ls -h -s Data`
-[*] `ls -hs Data`
-[ ] `ls -hsize Data`
+Q1. Among the following proposals, which give the same answer?
+- [ ] A. `ls -s -h Data`
+- [ ] B. `ls -sh Data`
+- [ ] C. `ls -size -h Data`
+- [ ] D. `ls --size -h Data`
+- [ ] E. `ls --sizeh Data`
+- [ ] F. `ls --size-h Data`
+- [ ] G. `ls -h -s Data`
+- [ ] H. `ls -hs Data`
+- [ ] I. `ls -hsize Data`
+
+<details>
+  <summary>Answer</summary>
+  <p><b>A, B, D, G and H</b></p>
+</details>
 
 
 ### Summary
