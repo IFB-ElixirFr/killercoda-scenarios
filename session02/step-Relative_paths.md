@@ -30,16 +30,34 @@ The same result would be obtained here using :
 
 `ls /tmp`
 
->>If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?<<
-( ) /
-( ) /shared
-(*) /shared/bank
+Q1. If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?
 
->>Wich type of path is shared/bank ?<<
-( ) Absolute
-(*) Relative
+- [ ] A. `/`
+- [ ] B. `/shared`
+- [ ] C. `/shared/bank`
 
->>If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/fasta`<<
-( ) homo_sapiens/hg19/fasta
-( ) ../../hg19/fasta
-(*) ../homo_sapiens/hg19/fasta
+<details>
+  <summary>Answer</summary>
+  <p><b>C</b></p>
+</details>
+
+
+Q2. Wich type of path is shared/bank ?
+- [ ] Absolute
+- [ ] Relative
+
+<details>
+  <summary>Answer</summary>
+  <p><b>Relative</b></p>
+</details>
+
+
+Q3. If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/fasta`
+- [ ] A. `homo_sapiens/hg19/fasta`
+- [ ] B. `../../hg19/fasta`
+- [ ] C. `../homo_sapiens/hg19/fasta`
+
+<details>
+  <summary>Answer</summary>
+  <p><b>C</b></p>
+</details>
