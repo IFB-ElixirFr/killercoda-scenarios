@@ -30,10 +30,17 @@ FILE is also optional but one may also be interested to list a particular folder
 
 And the DESCRIPTION section explains all the options associated to the command.
 
->> What is the meaning of the option `-l` of the `ls` command?<<
-( ) list directory contents
-(*) use a long listing format
-( ) print literal entry names
+Q1. What is the meaning of the option `-l` of the `ls` command?
+
+- [ ] A. list directory contents
+- [ ] B. use a long listing format
+- [ ] C. print literal entry names
+
+<details>
+  <summary>Answer</summary>
+  <p><b>B</b></p> 
+</details>
+
 
 
 ### The help option
