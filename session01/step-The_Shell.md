@@ -7,8 +7,8 @@ To access these powerful features, you need to learn a new way of thinking and a
 
 Q1. Are you ready to learn shell? (select "YES" to continue!)
 
-[ ] Yes!
-[ ] No..
+- [ ] Yes!
+- [ ] No..
 
 <details>
   <summary>Answer</summary>
