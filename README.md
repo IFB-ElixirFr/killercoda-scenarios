@@ -1,1 +1,1 @@
-# killercodascenarios
+# killercoda-scenarios
