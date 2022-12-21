@@ -1,5 +1,5 @@
 
-Welcome!
+Welcome!!
 
 During this courses, we will learn unix context and will run some bash commands.
 
