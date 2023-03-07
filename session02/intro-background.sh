@@ -1,7 +1,9 @@
 #!/bin/bash
 
-set -x 
+set -x   # Output is in /var/log/killercoda/background0_std*
 
+
+export DEBIAN_FRONTEND=noninteractive
 apt install -y tree
 
 mkdir /shared/

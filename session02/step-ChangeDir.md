@@ -4,14 +4,12 @@ The target directory must be specified using an absolute or a relative path.
 To experiment with the `cd` command, run the following commands:
 
 ```bash
-ls
-cd /shared/bank/nr
-ls
+cd /shared
+cd bank/nr
 cd ../homo_sapiens
-ls 
 ```
 
-Could you guess the absolute path of your current working directory?
+**Question:** Could you guess the absolute path of your current working directory?
 
 - [ ] `/shared/bank/`
 - [ ] `/shared/homo_sapiens`
@@ -19,30 +17,34 @@ Could you guess the absolute path of your current working directory?
 - [ ] `/shared/nr/homo_sapiens`
 - [ ] `/shared/bank/homo_sapiens`
 
-Verify the answer with `pwd`.
+Verify your answer with `pwd`.
 
 <details>
-  <summary>Answer</summary>
-  <p><tt>/shared/bank/homo_sapiens</tt></p>
+<summary>Answer</summary>
+
+`/shared/bank/homo_sapiens`
+
 </details>
 
 ### Automatic completion
 
-To go from your current working directory to a target directory, you must specify names of all intermediate directories. This can be time-consuming if the target directory is far away from your current directory. 
-The key <kbd>Tab</kbd> triggers auto-completion. It means you just need to type the first letters of a directory, then <kbd>Tab</kbd>, to get its full name. If there is more than one file or directory starting with the same letter, auto-completion will complete the name as far as it can. If you type a second time <kbd>Tab</kbd>, auto-completion will show you the available options.
+To go from your current working directory to a target directory, you must specify the names of all intermediate directories. This can be time-consuming if the target directory is far away from your current directory. 
+The key <kbd>Tab</kbd> triggers auto-completion. It means you just need to type the first letters of a directory, then press the <kbd>Tab</kbd> key, to get its full name completed. If there is more than one file or directory starting with the same letters, auto-completion will complete the name as far as it can. If you type a second time <kbd>Tab</kbd>, auto-completion will show you the available options.
 
 The <kbd>Tab</kbd> key is perhaps the most used key in Unix!
 
-Use the <kbd>TAB</kbd> key and `cd` to go into the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory.
+Use the command `cd` and the <kbd>Tab</kbd> key to go into the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory.
 
 How many files are in the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory?
 
-- [ ] 2
-- [ ] 3
-- [ ] 4
-- [ ] 5
+-[ ] 2
+-[ ] 3
+-[ ] 4
+-[ ] 5
 
 <details>
-  <summary>Answer</summary>
-  <p><b>5</b></p>
+<summary>Answer</summary>
+
+5
+
 </details>

@@ -26,13 +26,13 @@ ls test
 
 The `..` operator is handy to write a path relative to a directory. 
 It means _one level up in the directory tree_. 
-For instance from the `/root` directory where you are, you may list the content of the `/` directory using:
+For instance from the `/root` directory where you currently are, you can list the content of the `/` directory using:
 
 ```bash
 ls ..
 ```
 
-The same result would be obtained here using an absolute path:
+The same result could be obtained using the absolute path:
 
 ```bash
 ls /
@@ -51,35 +51,42 @@ ls /tmp
 ```
 
 
-Q1. If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?
+**Question:** If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?
 
 - [ ] A. `/`
 - [ ] B. `/shared`
 - [ ] C. `/shared/bank`
 
 <details>
-  <summary>Answer</summary>
-  <p><b>C</b></p>
+<summary>Answer</summary>
+
+`/shared/bank`
+
 </details>
 
 
-Q2. Wich type of path is shared/bank ?
+**Question:** Wich type of path is `shared/bank` ?
 - [ ] Relative
 - [ ] Absolute
 
 
 <details>
-  <summary>Answer</summary>
-  <p><b>Relative</b></p>
+<summary>Answer</summary>
+
+Relative
+
 </details>
 
 
-Q3. If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/fasta`
-- [ ] A. `homo_sapiens/hg19/fasta`
-- [ ] B. `../../hg19/fasta`
-- [ ] C. `../homo_sapiens/hg19/fasta`
+**Question:** If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/fasta` ?
+
+- [ ] `homo_sapiens/hg19/fasta`
+- [ ] `../../hg19/fasta`
+- [ ] `../homo_sapiens/hg19/fasta`
 
 <details>
-  <summary>Answer</summary>
-  <p><b>C</b></p>
+<summary>Answer</summary>
+
+`../homo_sapiens/hg19/fasta`
+
 </details>
