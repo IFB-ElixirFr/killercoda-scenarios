@@ -1,22 +1,36 @@
 ### *head*
 
-You might sometimes want to check just the beginning of a file.
-The `head` command is made for that:
+You may sometimes want to check just the beginning of a file.
 
-`head peekaboo.bed`
+That is what the `head` command does:
 
-By default, that command will show you the first 10 lines of a file. 
+```bash
+head belebele.bed
+```
 
-You can modulate the number of lines shown with the option _-n_:
+By default, this command will show you the first 10 lines of a file. 
 
-`head -n 15 peekaboo.bed` 
+You can specify the number of lines shown with the option *-n*:
+
+```bash
+head -n 15 belebele.bed
+``` 
 
 will show you the first 15 lines.
 
 
->> Print the first line of the _bidule.fasta_ file. Choose the right answer: <<
-( ) aaa
-(*) ici
-( ) aaa
-( ) aaa
+**Question:** Print the first line of the file `belebele.bed`. What is the value of the third column?
+
+- 1878
+- 2821361
+- 3289
+- 6968
+- 10456
+
+<details>
+<summary>Answer</summary>
+
+2821361
+
+</details>
 

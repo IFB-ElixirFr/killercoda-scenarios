@@ -1,15 +1,24 @@
 ### *tail*
 
-If you just want to check the end of a file, you may use the command `tail`:
+If you just want to check the end of a file, you may use the `tail` command:
 
-`tail beautifulFriend.bed`
+```bash
+tail belebele.bed
+```
 
-_-n_ is used the same way as with `head` to modulate the number of lines shown.
+The option *-n* is used the same way as with `head` to specify the number of lines shown (10 by default).
 
 
->> Print the last line of the _bidule.fasta_ file. Choose the right answer: <<
-( ) aaa
-( ) aaa
-( ) aaa
-(*) ici
+**Question:** Print the last line of the file `belebele.bed`. What is the name of the CDS in colmun 4?
+
+- cds-YP_498677.1
+- cds-YP_498678.1
+- cds-YP_501500.1
+
+<details>
+<summary>Answer</summary>
+
+cds-YP_501500.1
+
+</details>
 

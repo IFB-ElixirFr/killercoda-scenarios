@@ -1,14 +1,16 @@
 {
   "title": "Unix 3 - Manipulating data",
-  "description": "Work with the data into files",
+  "description": "Work with the content of files",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
     "assets": {
        "host01": [
            {"file": "gnagnagna.fasta", "target": "data", "chmod": "+r"},
+           {"file": "gnagnagna.bed", "target": "data", "chmod": "+r"},
            {"file": "belebele.fasta", "target": "data", "chmod": "+r"},
-           {"file": "belebele.bed", "target": "data", "chmod": "+r"}
+           {"file": "belebele.bed", "target": "data", "chmod": "+r"},
+           {"file": "peekaboo.csv", "target": "data", "chmod": "+r"}
        ]
      },
     "steps": [
@@ -57,6 +59,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu1804"
+    "imageid": "ubuntu"
   }
 }

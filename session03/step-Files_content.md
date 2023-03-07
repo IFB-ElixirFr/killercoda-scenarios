@@ -1,25 +1,46 @@
 
-The commands of the previous chapter allowed you to move around in the Unix file system and to access files. 
-This chapter will show you how to work with the data into those files. 
-The tools we’ll use are fairly simple, but are solid building blocks.
+In the previous chapters, you learnt how to move around in the Unix filesystem and access files. 
+This chapter will show you how to explore the data in those files. 
+The commands we’ll use are fairly simple, but are solid building blocks of more sophisticated traitement pipelines.
 
-## Step1:  How to look at the content of files ?
+First, go to the `data` directory with the `cd` command:
 
-###  *cat*
+```bash
+cd data
+```
 
-A first command allowing to view the content of a file is `cat`:
+Check you are in the expected directory with `pwd`:
 
-`cat gnagnagna.fasta`
+```bash
+pwd
+```
 
-This command will print the whole content of the _gnagnagna.fasta_ file to the screen.
+The result should be `/root/data`. This directory should contain 3 files you could find with the command `ls`.
+
+## Displaying file contents
+
+### *cat*
+
+A first command to display file contents is `cat`:
+
+```bash
+cat gnagnagna.fasta
+```
+
+This command will print the content of the file *gnagnagna.fasta* in your terminal.
 
 
-Print the content of the _belebele.fasta_ file. 
+Now, print the content of the file *belebele.fasta*.
 
->> What are the last three nucleotides of the file ? <<
-(*) ici
-( ) ele
-( ) atc
-( ) bel
+**Question:** What are the last three nucleotides of the file *belebele.fasta*?
+- ELE
+- ATT
+- ATC
+- BEL
 
+<details>
+<summary>Answer</summary>
 
+ATT
+
+</details>

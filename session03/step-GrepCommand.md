@@ -1,42 +1,70 @@
-## Step2:  How to select part of a file
+## How to select part of a file
 
 ### *grep*
 
-The `grep` command extracts lines that match a given pattern. 
-A pattern could be either a simple word or a more general expression, often termed **regular expression** (see [here](https://librarycarpentry.org/lc-data-intro/01-regular-expressions/) to learn more on them). 
+The `grep` command extracts lines matching a given pattern. 
+A pattern can be a simple word or a more general expression, often termed **regular expression** (see [here](https://librarycarpentry.org/lc-data-intro/01-regular-expressions/) to learn more about these). 
+
 For instance:
 
-`grep nom_gene beautifulFriendLong.bed`
+```bash
+grep gene-SAOUHSC_00079 belebele.bed
+```
 
->> Print the line that contains the XYZ gene name in the file beautifulFriendLong.bed? <<
-( ) aaa
-( ) aaa
-(*) ici
-( ) aaa
+**Question:** Print the line that contains the gene name *gene-SAOUHSC_00002* in the file `belebele.bed`. What is the starting position (given in the 2nd column) of this gene?
 
+- 750
+- 2155
+- 1561
+- 3289
 
-If we now for gene ABC in the same file:
+<details>
+<summary>Answer</summary>
 
-`grep ABC beautifulFriendLong.bed`
+```bash
+$ grep gene-SAOUHSC_00002 belebele.bed 
+NC_007795.1     2155    3289    gene-SAOUHSC_00002      .       +
+```
 
-we get the n lines containing the ABC gene name.
+Starting position: 2155
 
-To count the number of lines containing the ABC gene name, just add the `-c` option to the `grep` command:
-
-`grep -c ABC beautifulFriendLong.bed`
-
->> Count the number of lines containing the DEF gene name? <<
-( ) aaa
-( ) aaa
-(*) ici
-( ) aaa
+</details>
 
 
-Here are other useful `grep` options :
-- `-i`: searches the pattern in a case insensitive way
-- `-n`: adds the line number at the beginning of the line
-- `-v`: reverses the line selection
+Now, if you search for the gene *ABC* in the file `belebele.bed`:
 
-and many other again: try `man grep`
+```bash
+grep ABC belebele.bed
+```
 
+You get no line containing the ABC gene name.
 
+To count the number of lines containing the word *gene* word, add the `-c` option to the `grep` command:
+
+```bash
+grep -c gene belebele.bed
+```
+
+**Question:** Count the number of lines containing the word *cds* in `belebele.bed`
+- 2270
+- 2767
+- 1878
+
+<details>
+<summary>Answer</summary>
+
+```bash
+$ grep -c cds belebele.bed 
+2767
+```
+
+2767 cds
+
+</details>
+
+Here are other useful `grep` options:
+- `-i`: searches the pattern in a case **i**nsensitive way.
+- `-n`: adds the line **n**umber at the beginning of the output line.
+- `-v`: prints the lines not containing the pattern (re**v**erse selection).
+
+There are many other options: try `man grep`
