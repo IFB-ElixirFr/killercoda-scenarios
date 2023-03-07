@@ -6,8 +6,8 @@
   "details": {
     "assets": {
        "host01": [
-           {"file": "gnagnagna.bed", "target": "data", "chmod": "+r"},
-           {"file": "intro-background_shared_bank.sh", "target": ".scripts", "chmod": "+rx"}
+           {"file": "gnagnagna.bed", "target": "/root", "chmod": "+r"},
+           {"file": "seq1", "target": "/root", "chmod": "+r"}
        ]
     },
     "steps": [
@@ -53,6 +53,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu1804"
+    "imageid": "ubuntu"
   }
 }

@@ -1,12 +1,17 @@
-## Input of an Unix command
+## Input of a Unix command
 
-Icone “Vocabulary” : the standard input of a command is named stdin
+The standard input of a command is named **stdin**
 
-By default, stdin is set to the keyboard. But you can change this behavior and read stdin from a file. You must use the “<” operator to do this.
+![input stream of a command](./assets/stream_in_out.png)
 
-The tr command translates (or deletes) characters from a text provided as input. The seq1 file contains one DNA sequence that we want to convert in RNA sequence (by replacing T by U) and change from upper case to lowercase
-ex. : tr [AGCT] [agcu] seq1 
+By default, **stdin** is set to the keyboard. But you can change this behavior and read **stdin** from a file. You must use the `<` operator to do this.
 
-Icone remark: cat toto is equivalent to cat < toto and therefore cat < toto is seldom used
+The `tr` command translates (or deletes) characters from a text provided as input. If the file `seq1` contains one DNA sequence that we want to convert in RNA sequence (by replacing T by U) and change from upper case to lowercase, we could use the following command:
 
-![input stream of a command](./assets/stream_infile.png)
+```bash
+tr [AGCT] [agcu] < seq1 
+```
+
+Remark: `cat toto` is equivalent to `cat < toto` but `cat < toto` is seldom used.
+
+![input stream of a command](./assets/stream_infile_out.png)
