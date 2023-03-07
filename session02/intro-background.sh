@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install -y tree
+
 mkdir /shared/
 
 ## Project folders
