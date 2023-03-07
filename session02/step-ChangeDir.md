@@ -11,11 +11,11 @@ cd ../homo_sapiens
 
 **Question:** Could you guess the absolute path of your current working directory?
 
-- [ ] `/shared/bank/`
-- [ ] `/shared/homo_sapiens`
-- [ ] `../bank/nr`
-- [ ] `/shared/nr/homo_sapiens`
-- [ ] `/shared/bank/homo_sapiens`
+- `/shared/bank/`
+- `/shared/homo_sapiens`
+- `../bank/nr`
+- `/shared/nr/homo_sapiens`
+- `/shared/bank/homo_sapiens`
 
 Verify your answer with `pwd`.
 
@@ -35,12 +35,12 @@ The <kbd>Tab</kbd> key is perhaps the most used key in Unix!
 
 Use the command `cd` and the <kbd>Tab</kbd> key to go into the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory.
 
-How many files are in the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory?
+**Question:** How many files are in the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory?
 
--[ ] 2
--[ ] 3
--[ ] 4
--[ ] 5
+- 2
+- 3
+- 4
+- 5
 
 <details>
 <summary>Answer</summary>

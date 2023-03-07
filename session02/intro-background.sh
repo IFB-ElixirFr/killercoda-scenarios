@@ -15,8 +15,6 @@ cd $PROJECT
 
 ## Banks folders
 mkdir -p /shared/bank/{bos_taurus,homo_sapiens,nr}
-#cd /shared/bank/
-#mkdir -p bos_taurus homo_sapiens nr
 
 cd /shared/bank/bos_taurus
 mkdir -p ./UMD3.1/star-2.7.2b ./UMD3.1/fasta ./UMD3.1/bowtie2
@@ -48,8 +46,8 @@ touch \
 
 ## home folder
 mkdir -p $HOME/test
-echo "first test" > $HOME/test/a_first_test_file.txt
-echo "second test" > $HOME/test/a_second_test_file.txt
+echo "first test" > $HOME/test/first_file.txt
+echo "second test" > $HOME/test/second_file.txt
 
 ## Starting point...
 cd $HOME

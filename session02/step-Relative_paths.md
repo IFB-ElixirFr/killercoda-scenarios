@@ -51,11 +51,11 @@ ls /tmp
 ```
 
 
-**Question:** If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?
+**Question:** If your current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?
 
-- [ ] A. `/`
-- [ ] B. `/shared`
-- [ ] C. `/shared/bank`
+- `/`
+- `/shared`
+- `/shared/bank`
 
 <details>
 <summary>Answer</summary>
@@ -65,9 +65,9 @@ ls /tmp
 </details>
 
 
-**Question:** Wich type of path is `shared/bank` ?
-- [ ] Relative
-- [ ] Absolute
+**Question:** What type of path is `shared/bank` ?
+- Relative
+- Absolute
 
 
 <details>
@@ -78,11 +78,11 @@ Relative
 </details>
 
 
-**Question:** If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/fasta` ?
+**Question:** If my current working directory is `/shared/bank/bos_taurus` what is the relative path of `/shared/bank/homo_sapiens/hg19/fasta` ?
 
-- [ ] `homo_sapiens/hg19/fasta`
-- [ ] `../../hg19/fasta`
-- [ ] `../homo_sapiens/hg19/fasta`
+- `homo_sapiens/hg19/fasta`
+- `../../hg19/fasta`
+- `../homo_sapiens/hg19/fasta`
 
 <details>
 <summary>Answer</summary>

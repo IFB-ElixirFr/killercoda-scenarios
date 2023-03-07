@@ -23,12 +23,12 @@ The path of the current working directory can be obtained using the `pwd` comman
 
 Now, type the `pwd` command in the right panel and press <kbd>Enter</kbd>.
 
-The `pwd` command ouput is:
+**Question:** What is output of the command `pwd` ?
 
-- [ ] an absolute path
-- [ ] a relative path
+- an absolute path
+- a relative path
 
-Look, it begins by a `/`
+Look, it begins with a `/`
 
 <details>
 <summary>Answer</summary>

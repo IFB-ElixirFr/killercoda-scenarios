@@ -6,13 +6,15 @@ Use the `mkdir` command to create a repository `my_dir` in your HOME directory. 
 
 ```bash
 cd
-tree
 mkdir my_dir
 tree
 ```
 
-Still from your HOME directory, create another directory named `my_dir2` into the directory `/shared/projects/facts/`. 
-Use the command `tree` to display the file and directory organisation from the directory `/shared/project/facts`. Reminder: be lazy and use the <kbd>Tab</kbd> key to speed up your writing of the path.
+From your HOME directory: 
+- Create a new directory named `my_dir2` into the directory `/shared/projects/facts/`. 
+- Use the command `tree` to display the file and directory organisation from the directory `/shared/project/facts`.
+
+Reminder: be lazy and use the <kbd>Tab</kbd> key to speed up your writing of the path.
 
 ```bash
 cd
@@ -40,20 +42,23 @@ With the option `-r` (**r**ecursive), the `cp` command copies all files of the s
 Try to copy the `~/test` repository and its content to a new directory named `my_test` in the directory `/shared/projects/facts/`:
 
 ```bash
-tree /shared/projects/facts
 cp -r ~/test /shared/projects/facts/my_test
 tree /shared/projects/facts
 ```
 
-Create a new repository named `new_dir` into the directory `/shared/projects/facts`. In this directory `new_dir`, copy the file `~/test/first_file.txt` and rename it `file_1.txt`. How many files are listed with the command `tree /shared/projects/facts/new_dir` ?
+Create a new repository named `new_dir` into the directory `/shared/projects/facts`. In this directory `new_dir`, copy the file `~/test/first_file.txt` and rename it `file_1.txt`. 
+
+**Question:** How many files are listed with the command `tree /shared/projects/facts/new_dir` ?
 
 
-- [ ] 0
-- [ ] 1
-- [ ] 2
-- [ ] 3
+- 0
+- 1
+- 2
+- 3
 
 <details>
-  <summary>Answer</summary>
-  <p><b>1</b></p>
+<summary>Answer</summary>
+
+1 file
+
 </details>
