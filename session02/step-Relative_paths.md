@@ -1,34 +1,55 @@
-Run the `pwd` command.
+Run the `pwd` command in the right panel.
 
-Look at the command output you will see that you are currently located in `/root`. This folder named `root` is itself located in the  `/` folder which is also named _root_ (which can be a little bit counter-intuitive...).
+The output is the absolute path `/root` and means that you are currently located in `/root`. 
 
-You thus may create a path relative to this folder. 
-For instance you may write that you want to go from the current location to another reachable location starting from this *current working directory*. 
-The current symbol for the current working directory is `./` so one may write the following command to list the content of the `test` folder located in the current working directory
+Remark: In a Unix system, the administrator (the boss) is called root. And you are presently in its personal directory that is also called `root`!
 
-`ls ./test`
+If you type the `ls` command, you should see a sud-directory called `test`:
 
-However not that most of the time the `./` symbol is facultative and the system will also accept the syntax without it.
+```bash
+ls
+```
 
-`ls test`
+From the present current working directory, we would like to see what is inside a sub-directory called `test`. 
+To represent the current working directory, we need the symbol `.` (dot). 
+The relative path to the `test` sub-directory is `./test`.
 
-The `..` operator is another handy operator to write a path relative to a directory. 
-It means _one level up in the folder tree_. 
-For instance from the `/root` folder where we are in you may list the `/` folder using:
+```bash
+ls ./test
+```
 
-`ls ..`
+By default, relative paths start from the current working directory, so `./` could be omitted:
 
-The same result would be obtained here using :
+```bash
+ls test
+```
 
-`ls /`
+The `..` operator is handy to write a path relative to a directory. 
+It means _one level up in the directory tree_. 
+For instance from the `/root` directory where you are, you may list the content of the `/` directory using:
 
-You may also create a path using this operator to target the `/tmp` directory from the `/root` directory:
+```bash
+ls ..
+```
 
-`ls ../tmp`
+The same result would be obtained here using an absolute path:
 
-The same result would be obtained here using :
+```bash
+ls /
+```
 
-`ls /tmp`
+In an other example, if you are located in the `/root` directory, you could list the content of `/tmp` with a relative path:
+
+```bash
+ls ../tmp
+```
+
+The same result would be obtained with the absolute path:
+
+```bash
+ls /tmp
+```
+
 
 Q1. If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?
 
@@ -43,8 +64,9 @@ Q1. If my current working directory is `/shared/bank/homo_sapiens`, to which abs
 
 
 Q2. Wich type of path is shared/bank ?
-- [ ] Absolute
 - [ ] Relative
+- [ ] Absolute
+
 
 <details>
   <summary>Answer</summary>

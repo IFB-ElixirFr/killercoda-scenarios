@@ -1,14 +1,59 @@
-The `mkdir` command (**m**a**k**e **dir**rectory) create a new repository:
+## Create directory
 
-`mkdir path_to_A_New_Directory`
+The `mkdir` command (**m**a**k**e **dir**ectory) creates a new directory whose name is given as argument.
 
-The `rmdir` (**r**e**m**ove**dir**ectory) command is used to delete an empty directory:
+Use the `mkdir` command to create a repository `my_dir` in your HOME directory. To do so, first go to your HOME with the `cd` command, create the directory with the `mkdir` command, and see the result with the `tree` command:
 
-`rmdir path_to_An_Empty_Directory`
+```bash
+cd
+tree
+mkdir my_dir
+tree
+```
 
-The `rm` command is used to suppress files (for example to empty a directory):
+Still from your HOME directory, create another directory named `my_dir2` into the directory `/shared/projects/facts/`. 
+Use the command `tree` to display the file and directory organisation from the directory `/shared/project/facts`. Reminder: be lazy and use the <kbd>Tab</kbd> key to speed up your writing of the path.
 
-`rm path_to_a_file_to_suppress` 
+```bash
+cd
+mkdir /shared/projects/facts/my_dir2
+tree /shared/projects/facts
+```
+## Copying files and directories
+
+The `cp` (**c**o**p**y) command copies files or directories. It takes 2 paths as argument:
+
+```bash
+cp <source_path> <destination_path>
+```
+
+Example: go to the `~/test` directory and duplicate the file named `first_file.txt` while changing its name to `third_file.txt`:
+
+```bash
+cd ~/test
+cp first_file.txt third_file.txt
+ls 
+```
+
+With the option `-r` (**r**ecursive), the `cp` command copies all files of the source directory to the destination directory.
+
+Try to copy the `~/test` repository and its content to a new directory named `my_test` in the directory `/shared/projects/facts/`:
+
+```bash
+tree /shared/projects/facts
+cp -r ~/test /shared/projects/facts/my_test
+tree /shared/projects/facts
+```
+
+Create a new repository named `new_dir` into the directory `/shared/projects/facts`. In this directory `new_dir`, copy the file `~/test/first_file.txt` and rename it `file_1.txt`. How many files are listed with the command `tree /shared/projects/facts/new_dir` ?
 
 
+- [ ] 0
+- [ ] 1
+- [ ] 2
+- [ ] 3
 
+<details>
+  <summary>Answer</summary>
+  <p><b>1</b></p>
+</details>
