@@ -4,15 +4,15 @@
 It counts the number of lines, words, and characters in files:
 
 ```bash
-wc belebele.bed
+wc gnagnagna.bed
 ``` 
 
-The file `belebele.bed` has, from left to right: 5794 lines, 34764 words and 283205 characters.
+The file `gnagnagna.bed` has, from left to right: 8 lines, 48 words and 364 characters.
 
 To output only the number of lines, run `wc` with the option *-l*:
 
 ```bash
-wc -l belebele.bed
+wc -l gnagnagna.bed
 ``` 
 
 **Question:** How many lines has the file `gnagnagna.fasta`?
@@ -23,6 +23,11 @@ wc -l belebele.bed
 
 <details>
 <summary>Answer</summary>
+
+```bash
+$ wc -l gnagnagna.fasta 
+6 gnagnagna.fasta
+```
 
 6 lines
 

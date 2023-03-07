@@ -15,10 +15,14 @@ The option *-n* is used the same way as with `head` to specify the number of lin
 - cds-YP_498678.1
 - cds-YP_501500.1
 
+
 <details>
 <summary>Answer</summary>
 
-cds-YP_501500.1
+```bash
+$ tail -n 1 belebele.bed
+NC_007795.1     2821010 2821148 cds-YP_501500.1 .       -
+```
 
 </details>
 

@@ -24,7 +24,6 @@ will show you the first 15 lines.
 - 1878
 - 2821361
 - 3289
-- 6968
 - 10456
 
 <details>

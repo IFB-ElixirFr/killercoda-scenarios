@@ -3,7 +3,7 @@
 Very often the files you want to read are too large for your screen.
 For instance, you have previously displayed the content of the file *belebele.fasta* with the `cat` command and it filled your entire terminal.
 
-In contrast to `cat`, the `less` command opens a file and and let you browse its content interactively (line by line or page by page): 
+In contrast to `cat`, the `less` command opens a file and lets you browse its content interactively (*i.e.* line by line or page by page): 
 
 ```bash
 less belebele.fasta
@@ -26,6 +26,7 @@ To search backwards, you need to use <kbd>?</kbd> instead of <kbd>/</kbd> and th
 Use <kbd>Q</kbd> to quit the `less` command.
 
 **Question:** How many GGT motifs can you find in the file *gnagnagna.fasta*?
+
 - 0
 - 1
 - 2

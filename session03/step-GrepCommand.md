@@ -11,7 +11,7 @@ For instance:
 grep gene-SAOUHSC_00079 belebele.bed
 ```
 
-**Question:** Print the line that contains the gene name *gene-SAOUHSC_00002* in the file `belebele.bed`. What is the starting position (given in the 2nd column) of this gene?
+**Question:** Print the line that contains the gene name *gene-SAOUHSC_00002*  in the file `belebele.bed`. What is the starting position (given in the 2nd column) of this gene?
 
 - 750
 - 2155
