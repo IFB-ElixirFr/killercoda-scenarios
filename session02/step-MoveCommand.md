@@ -36,7 +36,7 @@ To delete a directory, you need to use the `rm` command with the option `-r`:
 rm -r <path_to_a_directory_to_delete>
 ```
 
-Be very careful with this `rm` command. There is no way to recover your deleted files in Unix!
+Be very very careful with the `rm` command. There is no way to recover your deleted files in Unix!
 
 
 **Question:** The `mv` command differs from the `rm` command by:

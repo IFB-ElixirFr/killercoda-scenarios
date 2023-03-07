@@ -2,11 +2,21 @@
 
 The `mkdir` command (**m**a**k**e **dir**ectory) creates a new directory whose name is given as argument.
 
-Use the `mkdir` command to create a repository `my_dir` in your HOME directory. To do so, first go to your HOME with the `cd` command, create the directory with the `mkdir` command, and see the result with the `tree` command:
+Use the `mkdir` command to create a repository `my_dir` in your HOME directory. To do so, first go to your HOME with the `cd` command:
 
 ```bash
 cd
+```
+
+then create the directory with the `mkdir` command:
+
+```bash
 mkdir my_dir
+```
+
+and finally see the result with the `tree` command:
+
+```bash
 tree
 ```
 

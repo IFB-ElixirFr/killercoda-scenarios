@@ -22,15 +22,15 @@ Paths are used in many Unix commands, such as the `ls` (that stands for **l**i**
 ls /shared/bank/homo_sapiens
 ```
 
-This `ls` command lists the content of the specified directory (also named **argument** of the ls command).
+This `ls` command lists the content of the specified directory (also named **argument** of the `ls` command).
 
 
 **Question:** Using the `ls` command, which repositories are in the `/shared/bank/homo_sapiens` repository?
 
-- [ ] `hg18`
-- [ ] `hg19`
-- [ ] `hg37`
-- [ ] `hg38`
+- `hg18`
+- `hg19`
+- `hg37`
+- `hg38`
 
 <details>
 <summary>Answer</summary>
@@ -43,9 +43,9 @@ Remark: Usually `hg` stands for **h**uman **g**enome and the number denotes the 
 
 **Question:** What is the absolute path of the parent directory of the folder `/shared/bank/bos_taurus`?
 
-- [ ] `/`
-- [ ] `/shared`
-- [ ] `/shared/bank`
+- `/`
+- `/shared`
+- `/shared/bank`
 
 <details>
 <summary>Answer</summary>
@@ -57,9 +57,9 @@ Remark: Usually `hg` stands for **h**uman **g**enome and the number denotes the 
 
 **Question:** What is the absolute path of the folder `hg19/fasta` in `/shared/bank` ?
 
-- [ ] `/shared/bank/homo_sapiens/hg19`
-- [ ] `/shared/bank/homo_sapiens/hg19/fasta`
-- [ ] `bank/homo_sapiens/hg19/fasta`
+- `/shared/bank/homo_sapiens/hg19`
+- `/shared/bank/homo_sapiens/hg19/fasta`
+- `bank/homo_sapiens/hg19/fasta`
 
 <details>
 <summary>Answer</summary>

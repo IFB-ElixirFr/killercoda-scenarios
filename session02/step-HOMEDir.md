@@ -22,7 +22,7 @@ pwd
 However, note that the HOME directory is not always the right place to store large files, particularly on a cluster with shared resources. Ask your administrator about appropriate guidelines!
 
 
-To answer the next question, please type the 3 following commands:
+To answer the next question, type the following commands:
 
 ```bash
 cd /shared/bank/nr
