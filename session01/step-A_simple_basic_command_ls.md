@@ -1,60 +1,80 @@
+The Bash shell provides you with a working space including files and directories.
 
-A basic but very useful command is `ls`, that’s **l**i**s**t content of a directory.
-On your Linux terminal on the right, type `ls` and then press <kbd>enter</kbd>.
+A very useful command is `ls`, that **l**i**s**ts the content of a directory.
+On your Unix terminal on the right, type `ls` and then press the <kbd>Enter</kbd> key.
 
-The word `Data` should be printed out.
-This `Data` here is a directory that we will explore now.
+The Bash shell should display `Data` that is a directory named `Data`.
 
-Now, type the following command in your terminal (and press <kbd>enter</kbd>) :
+Now, type the following command in your terminal (and press <kbd>Enter</kbd>) :
 
-`ls Data`
+```bash
+ls Data
+```
 
-It should give 8 elements present in the `Data` directory.
+The Bash shell should display 8 files in the `Data` directory.
 
 Remarks : 
-* pay attention to the space character between `ls` and `Data`
-* don't forget to press <kbd>enter</kbd> to start execution
-* `ls` is the command 
-* `Data` is an argument provided to the command
+- Pay attention to the space character between `ls` and `Data`.
+- Don't forget to press <kbd>Enter</kbd> to run commands.
+- `ls` is the command **name**.
+- `Data` is a directory name and an **argument** of the `ls` command.
 
-### options
+### Options
 
-`ls` offers options to modify its behavior. 
-For example, we can display the size of the files with the `--size` option. 
+Options modify the way a Unix command works.
+In Bash, shell options start with a simple or double dash (`-` or `--`).
+
+For example, with the `ls` command we can display the size of the files using the `--size` option. 
+
 Lets try and type: 
 
-`ls --size Data`
+```bash
+ls --size Data
+```
 
 Now, the 8 files are displayed with their respective sizes (in blocks). 
-We can use a short form for this option by replacing `--size` (long form) by `-s` (short form).
-If we prefer to display sizes in more human readable formats (e.g., 1K 234M 2G) we add the `-h` option. 
-We can also combine this 2 short form options:
 
-`ls -sh Data`
+You can use a short form for this option by replacing `--size` (long form) by `-s` (short form).
 
-Q1. Among the following proposals, which give the same answer?
-- [ ] A. `ls -s -h Data`
-- [ ] B. `ls -sh Data`
-- [ ] C. `ls -size -h Data`
-- [ ] D. `ls --size -h Data`
-- [ ] E. `ls --sizeh Data`
-- [ ] F. `ls --size-h Data`
-- [ ] G. `ls -h -s Data`
-- [ ] H. `ls -hs Data`
-- [ ] I. `ls -hsize Data`
+Usually, we use the `-h` option to display sizes in more **h**uman readable formats (*e.g.* 1K, 234M, 2G). 
+
+You can use several options in the same command and you can even merge short form options using a single dash as prefix.
+
+Example: type the following commands in your terminal. Both are equivalent.
+
+```bash
+ls --size -h Data
+ls -sh Data
+```
+
+**Question:** Among the following commands, which ones are correct?
+- `ls -s -h Data`
+- `ls -sh Data`
+- `ls -size -h Data`
+- `ls --size -h Data`
+- `ls --sizeh Data`
+- `ls --size-h Data`
+- `ls -h -s Data`
+- `ls -hs Data`
+- `ls -hsize Data`
 
 <details>
-  <summary>Answer</summary>
-  <p><b>A, B, D, G and H</b></p>
+<summary>Answer</summary>
+
+- `ls -s -h Data`
+- `ls -sh Data`
+- `ls --size -h Data`
+- `ls -h -s Data`
+- `ls -hs Data`
+
 </details>
 
 
 ### Summary
 
-Here we learn that:
-- we can execute a command by typing their name (options and/or arguments) and pressing <kbd>enter</kbd>
-- we can add options to modify the command behavior
-- options start with a dash `-` (short form) or a double dash `--` (long form)
-- several options of the short form can be combined (without space and after a single dash)
-- command name can be followed (or not) by an argument
-
+Here you've learnt that:
+- You can execute a command by typing its name (optionally, with its options and arguments) and pressing <kbd>Enter</kbd>.
+- You can add options to modify the command behavior.
+- Options start with a dash `-` (short form) or a double dash `--` (long form).
+- Several options of the short form can be combined (without space and after a single dash).
+- Command name can be followed (or not) by an argument

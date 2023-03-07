@@ -1,17 +1,21 @@
+We have already mentioned that the Shell lived in a dedicated interface: **the terminal**.
 
+The terminal generally appears as a simple windowed application. Look at the terminal on the right window. 
+It is a black frame displaying a **prompt** that usually ends by a `$` sign. 
+Just after this prompt you will have to type commands.
 
-We have already mentioned that the shell lived in a dedicated software: the terminal
+Several shells can be used to interact within the terminal (e.g. `bash`, `ksh`, `csh`, `zsh`, ...). 
+The most popular shell is Bash which is the default OS Shell on most Linux systems. 
+In this course the Bash shell will be used.
 
-The terminal most generally appears as a simple windowed application that displays a prompt that usually ends by a `$` sign.
+**Question:** Is Bash a shell or a terminal?
 
-Several shells can be used to interact within the terminal (e.g. bash, bsh, ksh, csh, zsh,...). The most popular language is Bash which is the default OS Shell on numerous Linux systems. In the following the Bash shell be used.
-
-Q1. Is Bash a shell or a terminal ?
-
-- [ ] A. Shell
-- [ ] B. Terminal
+- Shell
+- Terminal
 
 <details>
-  <summary>Answer</summary>
-  <p><b>A</b></p>
+<summary>Answer</summary>
+
+a shell
+
 </details>

@@ -1,9 +1,7 @@
-
 Welcome!
 
-During this courses, we will learn unix context and will run some bash commands.
+During this course, you will discover the Unix system and run some Bash commands.
 
-The left panel will contain the explanations and guides to run command lines. Use the right panel to type the command examples, and try as many experiments as you want.
+The left panel contains explanations and guides to run Unix commands. Use the right panel to type command examples and experiment as you wish.
 
-During the course, some bash language commands will be explained. They will be written like `this` and must be copied identically in the right window. Their text or value can be modified if you wish, but you will have to remember the changes afterwards. We therefore advise you to keep the text or value proposed in the example.
-
+During the course, some instructions will be explained. They will appear in the left panel on a grey background (`like this example`) and must be typed in the right panel. You could modify them, but in order to answer questions or quizzes, we advise you to copy the proposed instructions exactly as they are.

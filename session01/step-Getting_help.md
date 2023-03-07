@@ -1,15 +1,18 @@
-
 ### The man command
-The `man` command can be used to get the manual for the commands installed by default on the computer.
 
-It takes a command as a parameter and opens the manual on the terminal in which you can browse: use the <kbd>up</kbd> and <kbd>down</kbd> keys to move up and down and the <kbd>q</kbd> key to exit the manual.
+The `man` command is used to get the manual for any command in the Bash shell.
+
+It takes a command name as an argument and opens the manual on the terminal. 
+Use the <kbd>up</kbd> and <kbd>down</kbd> keys to move up and down into the manual and press the <kbd>q</kbd> key to exit.
 
 Lets try and type:
 
-`man ls`
+```bash
+man ls
+```
 
-This help contains several sections (e.g. NAME, SYNOPSIS, DESCRIPTION). 
-As indicated in the NAME section this command can be used to list a directory contents. 
+This manual contains several sections (e.g. NAME, SYNOPSIS, DESCRIPTION). 
+As indicated in the NAME section this command is used to list a directory content. 
 
 ```
 NAME
@@ -23,39 +26,40 @@ SYNOPSIS
        ls [OPTION]... [FILE]...
 ```
 
-The square brackets indicate that both OPTION and FILE are optional. 
-Indeed when no options are provided, the `ls` command will simply display the names of file and directory in the current folder without providing the user with additional information (size, owner, creation date...). 
-FILE is also optional but one may also be interested to list a particular folder (e.g. `Data`) as we did in the previous step.
+The square brackets indicate that both OPTION and FILE are optional for the `ls` command. 
+Indeed when no options are provided, the `ls` command will simply display the names of files and directories in the current directory without providing the user with additional information (size, owner, creation date...). 
 
+The DESCRIPTION section explains all the possible options of the command.
 
-And the DESCRIPTION section explains all the options associated to the command.
+Use the <kbd>q</kbd> key to exit the manual.
 
-Q1. What is the meaning of the option `-l` of the `ls` command?
-
-- [ ] A. list directory contents
-- [ ] B. use a long listing format
-- [ ] C. print literal entry names
+**Questions:** Using `man`, what is the meaning of the option `-l` of the `ls` command?
+- list directory contents
+- use a long listing format
+- print literal entry names
 
 <details>
-  <summary>Answer</summary>
-  <p><b>B</b></p> 
+<summary>Answer</summary>
+
+use a long listing format
+
 </details>
 
 
-
 ### The help option
-In many case, a help is provided by the software itself using `--help` or `-h` or `-help` or `help`
+An other way of getting help is to use the `--help` option after a command name (or, sometimes, `-h` or `-help` or `help`).
 
-```
+Example, type the following command:
+
+```bash
 ls --help
-ls -h
 ```
 
-### Ask internet
-Many forums exist. 
+### Ask Internet
 
-Specific to bioinformatics, we can cite:
-- [SEQanswers](http://seqanswers.com): http://seqanswers.com
-- [Biostars](https://www.biostars.org): https://www.biostars.org
+To get help, the internet is a very good source of information. Here are some useful ressources:
+
+- [Explain a shell command](https://explainshell.com) : https://explainshell.com
+- [A shell forum](https://stackoverflow.com) : https://stackoverflow.com
 
 
