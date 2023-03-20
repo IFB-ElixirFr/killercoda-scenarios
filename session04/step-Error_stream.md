@@ -6,7 +6,7 @@ Input and Output of an Unix command are also named streams. Changing their defau
 
 In addition to standard input (**stdin**) and standard output (**stdout**), a third stream exists and is named standard error (**stderr**) 
 
-![error stream of a command](./assets/stream_in_out_err.png)
+![error stream of a command](./assets/Stream_in_out_err.drawio.png)
 
 By default, **stderr** is also set to the screen. It can contain errors but also warnings and logs, depending on the command and parameters. 
 
@@ -21,7 +21,7 @@ The **stderr** stream can be empty if the Unix command runs without error.
 
 As previously mentioned for **stdin** and **stdout**, it is also possible to redirect **stderr** to a file using the `2>` operator.
 
-![error stream of a command redirected on a file](./assets/stream_in_outfile_errfile.png)
+![error stream of a command redirected on a file](./assets/Stream_in_outfile_errfile.drawio.png)
 
 ```bash
 grep toto /shared/bank/homo_sapiens 2> toto.log
