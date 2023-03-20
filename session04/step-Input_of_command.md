@@ -2,7 +2,7 @@
 
 The standard input of a command is named **stdin**
 
-![input stream of a command](./assets/stream_in_out.drawio.png)
+![input stream of a command](./assets/Stream_in_out.drawio.png)
 
 By default, **stdin** is set to the keyboard. But you can change this behavior and read **stdin** from a file. You must use the `<` operator to do this.
 
@@ -14,4 +14,4 @@ tr [AGCT] [agcu] < seq1
 
 Remark: `cat toto` is equivalent to `cat < toto` but `cat < toto` is seldom used.
 
-![input stream of a command](./assets/stream_infile_out.drawio.png)
+![input stream of a command](./assets/Stream_infile_out.drawio.png)
